@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+       <hr size="5px" color="white">
+        <hr size="3px" style="margin: 4px  0">
+        <a href="../index.html">Volver a página principal</a>
+
+        <h1 style="text-align: center; 
+            font-family: square;
+            margin-top: 5px">
+            Registrarse
+        </h1>
+
+        <hr width="100%" size="3px" style="margin: 4px 0">
+        <hr size="5px" color="white">
+    </header>
+
+    <main>
+        <section>
+            <article>
+            <form action="" name="" method="get" style="margin-left: 38.5%; text-align: center;">
+
+                <label for="name">Nombre</label>
+                <input class="inputArea" type="text" name="name" placeholder="Cómo te llamas" required> <br>
+
+                <label for="apellido">Apellido</label>
+                <input class="inputArea" type="text" name="apellido" placeholder="Escribe tu apellido" maxlength="10"/><br>
+
+                <label for="email">Correo</label>
+                <input class="inputArea" type="email" name="email" placeholder="Escribe tu correo" required> <br>
+
+                <label for="password">Clave</label>
+                <input class="inputArea" type="password" name="password" placeholder="Ingresa tu contraseña" required/><br>
+
+                <label for="sex">Sexo</label>
+                <select class="inputArea" name="sex" id="sex">
+                    <option value="" disabled selected>Selecciona:</option>
+                    <option value="1">Femenino</option>
+                    <option value="2">Masculino</option>
+                    <option value="3">Otro</option>
+                </select> <br>
+
+                <label for="preference">Preferencias</label> <br>
+                <input type="checkbox" name="Deportes"> Deportes
+                <input type="checkbox" name="Ciencia"> Ciencia
+                <input type="checkbox" name="Tecnología"> Tecnología
+                <input type="checkbox" name="Cocina"> Cocina
+                <input type="checkbox" name="Música"> Música <br>
+
+                <div style="margin-top: 10px; margin-bottom: 10px">
+                    <label for="es_civil">Estado Civil</label>
+                    <input type="radio" name="es_civil" id="soltero">Soltero(a)
+                    <input type="radio" name="es_civil" id="Casado">Casado(a)
+                </div>
+                
+                <input class="inputArea" style="margin-top:8px" type="submit" value="Finalizar Registro"/><br>
+                <input class="inputArea" type="reset" value="Borrar campos">
+            </form>
+            </article>   
+
+        </section>
+    </main>
+
+    <footer>
+        <h6 style="text-align: center;"> Información de Contacto</h6>
+
+        <p id="Contacto" style="text-align:center; font-size: 15px">
+            Teléfono: +58 414-4822278 <br>
+            Correo Electrónico: <a href="mailto:YizusA@gmail.com" style="color:rgb(101, 177, 106)">YizusA@gmail.com</a>
+            <br> <br>
+            <a href="https://www.facebook.com/jesusguillermo.azuajemonserrat" target="_blank">
+                <img src="../imgs/facebook.png" height="25" alt="Facebook">
+            </a>
+
+            <a href="https://wa.me/584144822278" target="_blank">
+                <img style="margin-left: 10px; margin-right: 10px" src="../imgs/whatsapp.png" height="25"
+                    alt="Whatsapp">
+            </a>
+
+            <a href="https://t.me/JisusA_05" target="_blank">
+                <img style="margin-right: 10px" src="../imgs/Telegram.png" height="25" alt="Telegram">
+            </a>
+
+            <a href="https://www.instagram.com/jisu.s2005/" target="_blank">
+                <img src="../imgs/Instagram.png" height="25" alt="Instagram">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

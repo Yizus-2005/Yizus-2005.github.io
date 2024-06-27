@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    .orbitron-regular {
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    .montserrat-alternates-regular {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "square";
+    src: url(../fonts/squarefont/Square.ttf);
+}
+
+
+body{
+    background-image: linear-gradient(to left bottom, #79bfff, #6ebff7, #65beef, #60bde6, #5ebcdc, #4eb5db, #3cafda, #26a8d9, #0098df, #2e86e0, #5a70d9, #8054c7);
+    color:white; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+}
+
+h4, h5{
+    background: rgb(32, 132, 160);
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.942);
+    color: rgb(32, 32, 32)
+}
+
+.circleimg{
+    clip-path: circle(49.1% at 50% 50%);
+}
+
+form{
+    border:rgb(82, 17, 82);
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 3px;
+    width: 23%;
+    background-color: #9366b0;
+}
+
+.navbutton{
+    border-color: rgb(30, 97, 30); 
+    border-style: solid; 
+    border-radius: 10px; 
+    padding:4px;
+    color:rgb(80, 207, 133);
+    background-color: rgb(30, 97, 30);
+    text-decoration:none;
+}
+
+.inputArea{
+    margin: 5px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgb(82, 17, 82);
+}
+
+td{
+    padding: 4px;
+}
+
+th{
+    padding: 3px;
+}
